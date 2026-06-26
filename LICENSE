@@ -1,0 +1,42 @@
+MIT License
+
+Copyright (c) JeasonLoop (original "react-xiuxian-game" engine)
+Copyright (c) 2026 RC_C ("凡人修仙編年史" canon adaptation, story data and tooling)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+================================================================================
+ATTRIBUTION (致謝)
+
+This project, "凡人修仙編年史 (Fanren Cultivation Chronicle)", is a fan-made,
+non-commercial derivative work. Its game engine is forked from the open-source
+project "react-xiuxian-game (修仙文字游戏)" by JeasonLoop
+(https://github.com/JeasonLoop/react-xiuxian-game), released under the MIT
+License. The original author's MIT terms are preserved above, with deepest
+gratitude.
+
+NOTE ON THE SOURCE NOVEL (原著著作權聲明)
+
+This game is a fan adaptation inspired by the web novel 《凡人修仙傳》 by
+忘語 (Wang Yu). The MIT License above covers ONLY this project's source code,
+tooling, and the original transformative story-summary data authored for this
+game. It does NOT grant any rights to 《凡人修仙傳》 itself; all rights to the
+novel remain with 忘語 and the respective rights holders. This repository
+contains NO verbatim text of the novel. This is a non-commercial fan work; if
+the rights holders object, the corresponding content will be removed on request.

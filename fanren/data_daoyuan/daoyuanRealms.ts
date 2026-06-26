@@ -1,0 +1,173 @@
+/**
+ * 道元纪・原创境界阶梯
+ * 由 .tres 自动转换生成
+ */
+export interface DaoyuanRealm {
+  key: string;
+  name: string;
+  tier: 'human' | 'spirit' | 'immortal';
+  realmType: string;
+  lifespan: number;
+  baseExp: number;
+  hasTribulation: boolean;
+  tribulationName?: string;
+  baseHp: number;
+  baseMp: number;
+  baseAtk: number;
+  baseDef: number;
+  baseSpd: number;
+  breakthroughThreshold: number;
+}
+
+export const DAOYUAN_REALMS: DaoyuanRealm[] = [
+  {
+    key: '引气入体',
+    name: '引气入体',
+    tier: 'human',
+    realmType: '引气入体',
+    lifespan: 120,
+    baseExp: 1000,
+    hasTribulation: false,
+    baseHp: 100,
+    baseMp: 50,
+    baseAtk: 10,
+    baseDef: 5,
+    baseSpd: 10,
+    breakthroughThreshold: 30,
+  },
+  {
+    key: '通脉开窍',
+    name: '通脉开窍',
+    tier: 'human',
+    realmType: '通脉开窍',
+    lifespan: 150,
+    baseExp: 4000,
+    hasTribulation: false,
+    baseHp: 250,
+    baseMp: 120,
+    baseAtk: 25,
+    baseDef: 8,
+    baseSpd: 12,
+    breakthroughThreshold: 30,
+  },
+  {
+    key: '筑就道基',
+    name: '筑就道基',
+    tier: 'human',
+    realmType: '筑就道基',
+    lifespan: 200,
+    baseExp: 15000,
+    hasTribulation: false,
+    baseHp: 600,
+    baseMp: 300,
+    baseAtk: 60,
+    baseDef: 12,
+    baseSpd: 15,
+    breakthroughThreshold: 30,
+  },
+  {
+    key: '凝结元丹',
+    name: '凝结元丹',
+    tier: 'human',
+    realmType: '凝结元丹',
+    lifespan: 300,
+    baseExp: 60000,
+    hasTribulation: false,
+    baseHp: 1500,
+    baseMp: 700,
+    baseAtk: 150,
+    baseDef: 18,
+    baseSpd: 20,
+    breakthroughThreshold: 50,
+  },
+  {
+    key: '元胎化婴',
+    name: '元胎化婴',
+    tier: 'human',
+    realmType: '元胎化婴',
+    lifespan: 500,
+    baseExp: 240000,
+    hasTribulation: false,
+    baseHp: 4000,
+    baseMp: 1800,
+    baseAtk: 400,
+    baseDef: 25,
+    baseSpd: 25,
+    breakthroughThreshold: 50,
+  },
+  {
+    key: '元婴出窍',
+    name: '元婴出窍',
+    tier: 'human',
+    realmType: '元婴出窍',
+    lifespan: 800,
+    baseExp: 900000,
+    hasTribulation: false,
+    baseHp: 10000,
+    baseMp: 4500,
+    baseAtk: 1000,
+    baseDef: 35,
+    baseSpd: 35,
+    breakthroughThreshold: 50,
+  },
+  {
+    key: '化神合道',
+    name: '化神合道',
+    tier: 'human',
+    realmType: '化神合道',
+    lifespan: 1500,
+    baseExp: 3500000,
+    hasTribulation: false,
+    baseHp: 25000,
+    baseMp: 11000,
+    baseAtk: 2500,
+    baseDef: 50,
+    baseSpd: 50,
+    breakthroughThreshold: 70,
+  },
+  {
+    key: '虚空炼形',
+    name: '虚空炼形',
+    tier: 'human',
+    realmType: '虚空炼形',
+    lifespan: 3000,
+    baseExp: 14000000,
+    hasTribulation: false,
+    baseHp: 65000,
+    baseMp: 28000,
+    baseAtk: 6500,
+    baseDef: 75,
+    baseSpd: 75,
+    breakthroughThreshold: 70,
+  },
+  {
+    key: '天人合一',
+    name: '天人合一',
+    tier: 'human',
+    realmType: '天人合一',
+    lifespan: 5000,
+    baseExp: 55000000,
+    hasTribulation: false,
+    baseHp: 160000,
+    baseMp: 70000,
+    baseAtk: 16000,
+    baseDef: 110,
+    baseSpd: 110,
+    breakthroughThreshold: 70,
+  },
+  {
+    key: '渡劫飞升',
+    name: '渡劫飞升',
+    tier: 'human',
+    realmType: '渡劫飞升',
+    lifespan: 10000,
+    baseExp: 250000000,
+    hasTribulation: false,
+    baseHp: 400000,
+    baseMp: 180000,
+    baseAtk: 40000,
+    baseDef: 180,
+    baseSpd: 180,
+    breakthroughThreshold: 85,
+  },
+];

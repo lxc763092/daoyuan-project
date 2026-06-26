@@ -1,0 +1,167 @@
+/**
+ * 道元纪・原创战斗技能
+ * 由 .tres 自动转换生成
+ */
+export interface DaoyuanSkill {
+  skillId: string;
+  skillName: string;
+  mpCost: number;
+  cooldown: number;
+  power: number;
+  element: number;  // 0=金 1=木 2=水 3=火 4=土 5=虚空
+  targetType: number;
+  description: string;
+}
+
+export const DAOYUAN_SKILLS: DaoyuanSkill[] = [
+  {
+    skillId: 'atk_basic',
+    skillName: '普通攻击',
+    mpCost: 0,
+    cooldown: 0,
+    power: 1.0,
+    element: "金",
+    targetType: 0,
+    description: '基础物理攻击，无属性',
+  },
+  {
+    skillId: 'skill_earth_guard',
+    skillName: '大地之盾',
+    mpCost: 20,
+    cooldown: 1,
+    power: 0.0,
+    element: 4,
+    targetType: 2,
+    description: '土系防御，防御+40%，吸引火力',
+  },
+  {
+    skillId: 'skill_earth_quake',
+    skillName: '地裂术',
+    mpCost: 28,
+    cooldown: 2,
+    power: 2.0,
+    element: 4,
+    targetType: 1,
+    description: '土系全体攻击，降低敌人速度',
+  },
+  {
+    skillId: 'skill_earth_strike',
+    skillName: '裂石拳',
+    mpCost: 12,
+    cooldown: 0,
+    power: 1.5,
+    element: 4,
+    targetType: 0,
+    description: '土系单体攻击，附带眩晕概率',
+  },
+  {
+    skillId: 'skill_fire_ball',
+    skillName: '火球术',
+    mpCost: 10,
+    cooldown: 0,
+    power: 1.4,
+    element: 3,
+    targetType: 0,
+    description: '火系基础攻击，有概率造成灼烧',
+  },
+  {
+    skillId: 'skill_fire_burn',
+    skillName: '烈焰焚天',
+    mpCost: 30,
+    cooldown: 2,
+    power: 2.5,
+    element: 3,
+    targetType: 1,
+    description: '火系爆发攻击全体敌人，附加灼烧',
+  },
+  {
+    skillId: 'skill_gold_body',
+    skillName: '金刚体',
+    mpCost: 20,
+    cooldown: 3,
+    power: 0.0,
+    element: 0,
+    targetType: 2,
+    description: '金系防御技，短时间内大幅提升防御',
+  },
+  {
+    skillId: 'skill_gold_slash',
+    skillName: '金锋斩',
+    mpCost: 15,
+    cooldown: 1,
+    power: 1.8,
+    element: 0,
+    targetType: 0,
+    description: '金系锋锐一击，暴击率+15%',
+  },
+  {
+    skillId: 'skill_gold_sword',
+    skillName: '飞剑术',
+    mpCost: 25,
+    cooldown: 2,
+    power: 2.2,
+    element: 0,
+    targetType: 0,
+    description: '金系高级攻击，无视部分防御',
+  },
+  {
+    skillId: 'skill_water_frost',
+    skillName: '寒冰甲',
+    mpCost: 22,
+    cooldown: 3,
+    power: 0.0,
+    element: 2,
+    targetType: 2,
+    description: '水系防御技，提高自身闪避和反伤',
+  },
+  {
+    skillId: 'skill_water_ice',
+    skillName: '冰锥术',
+    mpCost: 18,
+    cooldown: 1,
+    power: 1.6,
+    element: 2,
+    targetType: 0,
+    description: '水系单体攻击，降低目标速度',
+  },
+  {
+    skillId: 'skill_water_shield',
+    skillName: '玄冰护体',
+    mpCost: 20,
+    cooldown: 2,
+    power: 0.0,
+    element: 2,
+    targetType: 2,
+    description: '水系护盾，闪避+20%，受击反伤50%',
+  },
+  {
+    skillId: 'skill_wood_bind',
+    skillName: '缠绕术',
+    mpCost: 15,
+    cooldown: 1,
+    power: 1.2,
+    element: 1,
+    targetType: 0,
+    description: '木系控制技能，使目标无法行动1回合',
+  },
+  {
+    skillId: 'skill_wood_heal',
+    skillName: '万木逢春',
+    mpCost: 25,
+    cooldown: 3,
+    power: 0.0,
+    element: 1,
+    targetType: 3,
+    description: '木系治疗，恢复全队HP',
+  },
+  {
+    skillId: 'skill_wood_regen',
+    skillName: '回春术',
+    mpCost: 15,
+    cooldown: 2,
+    power: 0.0,
+    element: 1,
+    targetType: 2,
+    description: '木系单体治疗，恢复大量HP',
+  },
+];
