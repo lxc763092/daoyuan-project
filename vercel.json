@@ -1,0 +1,10 @@
+{
+  "framework": null,
+  "outputDirectory": "dist",
+  "installCommand": "echo 'skip install'",
+  "buildCommand": "echo 'skip build - prebuilt'",
+  "routes": [
+    { "src": "/assets/(.*)", "dest": "/assets/$1" },
+    { "src": "/(.*)", "dest": "/index.html" }
+  ]
+}
